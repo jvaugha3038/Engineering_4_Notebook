@@ -58,6 +58,6 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ### Test Link
 [test link lmao](raspberry-pi/temp.py)
 ### Test Image
-![ferret](images/your-image-name.png)  
+![ferret](images/0.png)  
 ### Test GIF
-![kirby!!!](images/your-image-name.png)  
+![kirby!!!](images/kirby-headphones.png)  
