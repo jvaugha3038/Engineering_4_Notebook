@@ -3,11 +3,27 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [LAUNCHPAD](#LAUNCHPAD_PART_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
+## LAUNCHPAD PART 1
+
+### Section Description
+
+The first step was to use the MicroPico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
+
+ ![ezgif com-crop (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/89c188fe-a213-47d3-ba73-38d212a5781e)
+
+### Code
+Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
@@ -30,6 +46,7 @@ Give me a link to your code. [Something like this](https://github.com/millerm22/
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
+
 
 ## Onshape_Assignment_Template
 
