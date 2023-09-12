@@ -68,7 +68,7 @@ The final part of this assignment was to make a servo spin form 0 to 180 degrees
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d6ad9118-9459-41f9-af57-cbfa19f47390)
 
 ### Code
-[the whole everything]()
+[the whole everything](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown4.py)
 
 ### Reflection
 Caompared to the other ones, this one posed a slight challenge. This was mainly because I had to play The Servo Lottery since some of them just didn't work for a variety of reasons. Once I found a functioning servo, finished the code, and tested it, I was ready to record it. **However,** the servo had other plans, and then proceeded to not work ever again. In the code, I made the servo spin from 1 to 179 degrees to avoid having it get stuck at 180 again.
