@@ -10,7 +10,7 @@
 
 ## LAUNCHPAD PART 1
 ### Section Description
-The first step was to use the MicroPico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
+The first step was to use the Pico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
 
  ![ezgif com-crop (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/89c188fe-a213-47d3-ba73-38d212a5781e)
 
