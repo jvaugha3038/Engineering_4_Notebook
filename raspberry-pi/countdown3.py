@@ -1,3 +1,4 @@
+#type:ignore
 from time import sleep
 import board
 from digitalio import DigitalInOut, Direction, Pull #the stuff again
