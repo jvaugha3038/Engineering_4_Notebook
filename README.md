@@ -65,8 +65,7 @@ The final part of this assignment was to make a servo spin form 0 to 180 degrees
 ![ezgif com-optimize (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/27660665-013f-4f44-a141-0bbd319a9b01)
 
 ### Wiring
-
-
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d6ad9118-9459-41f9-af57-cbfa19f47390)
 
 ### Code
 [the whole everything]()
