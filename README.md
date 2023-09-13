@@ -30,7 +30,7 @@ The second step was to make a red LED blink on every second of the countdown, th
 ![ezgif com-optimize](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/310a8bee-1ce3-48b6-b89f-3227f89c8cbe)
 
 ### Wiring
-
+shoutout to fritzing for being better than tinkercad could ever be
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d4423bf0-2795-4a47-a422-45aa676d5291)
 
 ### Code
