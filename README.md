@@ -12,6 +12,7 @@
 ### Section Description
 The first step was to use the Pico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
 
+### Evidence
  ![ezgif com-crop (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/89c188fe-a213-47d3-ba73-38d212a5781e)
 
 ### Code
@@ -75,6 +76,20 @@ Compared to the other ones, this one posed a slight challenge. This was mainly b
 
 &nbsp;
 
+## TEMPLATE (plz copy)
+### Section Description
+what was the assignment
+
+### Evidence
+gif/video of the thing doing what its meant to do
+
+### Code
+[some funny link name](the link)
+
+### Reflection
+what took forever, what was easy, was it miserable and why
+
+&nbsp;
 
 ## Onshape_Assignment_Template
 
