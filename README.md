@@ -22,7 +22,7 @@ The only problem I had was that I forgot how for loops worked, and then forgot h
 
 &nbsp;
 ## LAUNCHPAD PART 2
-### Assignment Description
+### Section Description
 The second step was to make a red LED blink on every second of the countdown, then turn on a green LED on liftoff.
 
 ### Evidence 
@@ -40,7 +40,7 @@ This assignment was the mandatory "you forgot how LED wiring works and thus the 
 
 &nbsp;
 ## LAUNCHPAD PART 3
-### Assignment Description
+### Section Description
 Adding onto the previous parts, the next step was to add a button to start the countdown, and pressing the button again would force stop the countdown.
 
 ### Evidence 
@@ -58,8 +58,8 @@ This assignment served the same general purpose as the last one, being the "here
 
 &nbsp;
 ## LAUNCHPAD PART 4
-### Assignment Description
-The final part of this assignment was to make a servo spin form 0 to 180 degrees on liftoff.
+### Section Description
+The final part of this assignment was to make a servo spin from 0 to 180 degrees on liftoff.
 
 ### Evidence 
 ![ezgif com-optimize (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/27660665-013f-4f44-a141-0bbd319a9b01)
