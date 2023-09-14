@@ -10,8 +10,9 @@
 
 ## LAUNCHPAD PART 1
 ### Section Description
-The first step was to use the MicroPico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
+The first step was to use the Pico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
 
+### Evidence
  ![ezgif com-crop (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/89c188fe-a213-47d3-ba73-38d212a5781e)
 
 ### Code
@@ -22,14 +23,14 @@ The only problem I had was that I forgot how for loops worked, and then forgot h
 
 &nbsp;
 ## LAUNCHPAD PART 2
-### Assignment Description
+### Section Description
 The second step was to make a red LED blink on every second of the countdown, then turn on a green LED on liftoff.
 
 ### Evidence 
 ![ezgif com-optimize](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/310a8bee-1ce3-48b6-b89f-3227f89c8cbe)
 
 ### Wiring
-
+shoutout to fritzing for being better than tinkercad could ever be
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d4423bf0-2795-4a47-a422-45aa676d5291)
 
 ### Code
@@ -40,7 +41,7 @@ This assignment was the mandatory "you forgot how LED wiring works and thus the 
 
 &nbsp;
 ## LAUNCHPAD PART 3
-### Assignment Description
+### Section Description
 Adding onto the previous parts, the next step was to add a button to start the countdown, and pressing the button again would force stop the countdown.
 
 ### Evidence 
@@ -58,28 +59,37 @@ This assignment served the same general purpose as the last one, being the "here
 
 &nbsp;
 ## LAUNCHPAD PART 4
-
-### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+### Section Description
+The final part of this assignment was to make a servo spin from 0 to 180 degrees on liftoff.
 
 ### Evidence 
-
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![ezgif com-optimize (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/27660665-013f-4f44-a141-0bbd319a9b01)
 
 ### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d6ad9118-9459-41f9-af57-cbfa19f47390)
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[the whole everything](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown4.py)
 
 ### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Compared to the other ones, this one posed a slight challenge. This was mainly because I had to play The Servo Lottery since some of them just didn't work for a variety of reasons. Once I found a functioning servo, finished the code, and tested it, I was ready to record it. **However,** the servo had other plans, and then proceeded to not work ever again. In the code, I made the servo spin from 1 to 179 degrees to avoid having it get stuck at 180 again, then I got a new servo and it worked fine.
 
 &nbsp;
 
+## TEMPLATE (plz copy)
+### Section Description
+what was the assignment
+
+### Evidence
+gif/video of the thing doing what its meant to do
+
+### Code
+[some funny link name](the link)
+
+### Reflection
+what took forever, what was easy, was it miserable and why
+
+&nbsp;
 
 ## Onshape_Assignment_Template
 
