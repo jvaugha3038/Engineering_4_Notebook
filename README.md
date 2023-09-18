@@ -34,6 +34,8 @@ The second step was to make a red LED blink on every second of the countdown, th
 shoutout to fritzing for being better than tinkercad could ever be
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d4423bf0-2795-4a47-a422-45aa676d5291)
 
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/aee50b42-04c4-4c0e-88f9-4d5604a848b0)
+Also I will be using this image forever so I'm putting it here.
 ### Code
 [The Code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown2.py)
 
@@ -92,6 +94,42 @@ The goal of the first step was to get an accelerometer to print out values to th
 
 ### Reflection
 This first step was VERY easy. My final project in engineering 3 used a gyroscope, which is wired and coded in essentially the same way since they're the same device. That means that I was able to just check my old documentation and wiring to see what to do.
+
+&nbsp;
+
+## CRASH AVOIDANCE PART 2
+### Section Description
+The goal of the second step was to get a battery to power the pico, as well as adding a warning light when the system was tilted 90+ degrees.
+
+### Evidence
+![ezgif com-crop (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/e8f522e7-8a56-4349-a41b-aed342515015)
+
+### Code
+[very good programming](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash1.py)
+
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d8c58841-c568-4d11-994e-f8629d0b234e)
+
+### Reflection
+
+
+&nbsp;
+
+## CRASH AVOIDANCE PART 3
+### Section Description
+The goal of the third step was to get an OLED screen to display gyroscope values..
+
+### Evidence
+![ezgif com-crop (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/e8f522e7-8a56-4349-a41b-aed342515015)
+
+### Code
+[very good programming](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash1.py)
+
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d8c58841-c568-4d11-994e-f8629d0b234e)
+
+### Reflection
+
 
 &nbsp;
 
