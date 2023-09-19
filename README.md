@@ -35,6 +35,7 @@ shoutout to fritzing for being better than tinkercad could ever be
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d4423bf0-2795-4a47-a422-45aa676d5291)
 
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/aee50b42-04c4-4c0e-88f9-4d5604a848b0)
+
 Also I will be using this image forever so I'm putting it here.
 ### Code
 [The Code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown2.py)
@@ -57,7 +58,6 @@ Adding onto the previous parts, the next step was to add a button to start the c
 [the code :)](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown3.py)
 
 ### Reflection
-
 This assignment served the same general purpose as the last one, being the "heres how to wire a button again" assignment. I used a panel mount button to save space. Overall, not that challenging.
 
 &nbsp;
@@ -109,6 +109,7 @@ The goal of the second step was to get a battery to power the pico, as well as a
 
 ### Wiring
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/c9af72a1-f693-4ef2-9eda-9ca59792c126)
+
 (shows one big breadboard, but I'm really using two half-size breadboards.)
 ### Reflection
 The LED part was as simple as it sounds, just "when this number is less than or equal to zero, turn the light on". The battery caused a lot of problems though, the first one being that it is **very hard** to disconnect the battery from the switch or the charger while trying not to break it. Maybe I'm just weak, but besides that, the bigger problem was that the code would work fine when connected to the computer, but when disconnected, the light would just turn on and stay on. It turned out that the ground rails on my two breadboards weren't actually connected, so once I put a jumper wire there, it worked fine. This was just an oversight on my part.
