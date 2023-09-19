@@ -102,34 +102,35 @@ This first step was VERY easy. My final project in engineering 3 used a gyroscop
 The goal of the second step was to get a battery to power the pico, as well as adding a warning light when the system was tilted 90+ degrees.
 
 ### Evidence
-![ezgif com-crop (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/e8f522e7-8a56-4349-a41b-aed342515015)
+![ezgif com-crop (3)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/7e0781bb-3267-4c13-bcdf-c239e512b1dc)
 
 ### Code
-[very good programming](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash1.py)
+[even better code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash2.py)
 
 ### Wiring
-![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d8c58841-c568-4d11-994e-f8629d0b234e)
-
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/c9af72a1-f693-4ef2-9eda-9ca59792c126)
+(shows one big breadboard, but I'm really using two half-size breadboards.)
 ### Reflection
-
+The LED part was as simple as it sounds, just "when this number is less than or equal to zero, turn the light on". The battery caused a lot of problems though, the first one being that it is **very hard** to disconnect the battery from the switch or the charger while trying not to break it. Maybe I'm just weak, but besides that, the bigger problem was that the code would work fine when connected to the computer, but when disconnected, the light would just turn on and stay on. It turned out that the ground rails on my two breadboards weren't actually connected, so once I put a jumper wire there, it worked fine. This was just an oversight on my part.
 
 &nbsp;
 
 ## CRASH AVOIDANCE PART 3
 ### Section Description
-The goal of the third step was to get an OLED screen to display gyroscope values..
+The goal of the third step was to get an OLED screen to display gyroscope values, still adding onto the first two parts.
 
 ### Evidence
-![ezgif com-crop (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/e8f522e7-8a56-4349-a41b-aed342515015)
+![ezgif com-optimize (3)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/52e9eee7-9341-4b6c-8ef1-72b08aa5cab9)
 
 ### Code
-[very good programming](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash1.py)
+[code...?](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash3.py)
 
 ### Wiring
-![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/d8c58841-c568-4d11-994e-f8629d0b234e)
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/8e6834d9-dec7-40b0-8687-b108b0b753ea)
+The OLED in fritzing doesn't have a reset pin, so I had to put it next to the other ones.
 
 ### Reflection
-
+The wiring was simple enough, but the main source of problems was the screen display code. It made absolutely no sense at the start, and I had no clue whether to put it in the while loop or outside of it. River essentially told me, "put this stuff outside of the loop and put these two lines in it" and then it just worked. Now, I sort of know what I'm doing with OLED screens.
 
 &nbsp;
 
