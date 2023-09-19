@@ -3,8 +3,8 @@
 &nbsp;
 
 ## Table of Contents
-* [LAUNCHPAD](#LAUNCHPAD_PART_1)
-* [ANTI-CRASH](#CRASH_AVOIDANCE_PART_1)
+* [LAUNCHPAD](#launchpad_part_1)
+* [ANTI-CRASH](#crash_avoidance_part_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
