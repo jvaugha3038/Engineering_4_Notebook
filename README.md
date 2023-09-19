@@ -3,13 +3,13 @@
 &nbsp;
 
 ## Table of Contents
-* [LAUNCHPAD](#launchpad_part_1)
-* [ANTI-CRASH](#crash_avoidance_part_1)
+* [LAUNCHPAD](#launchpad)
+* [ANTI-CRASH](#crash_avoidance)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## LAUNCHPAD PART 1
+## LAUNCHPAD
 ### Section Description
 The first step was to use the Pico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
 
@@ -79,7 +79,7 @@ Compared to the other ones, this one posed a slight challenge. This was mainly b
 
 &nbsp;
 
-## CRASH AVOIDANCE PART 1
+## CRASH_AVOIDANCE
 ### Section Description
 The goal of the first step was to get an accelerometer to print out values to the serial monitor.
 
