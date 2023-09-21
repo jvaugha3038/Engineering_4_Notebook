@@ -8,8 +8,10 @@
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
-
 ## LAUNCHPAD
+<details>
+<summary>I'm using dropdown menus. Hopefully these work.</summary>
+<br>
 ### Section Description
 The first step was to use the Pico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
 
@@ -21,7 +23,7 @@ The first step was to use the Pico to print a 10 second countdown to the termina
 
 ### Reflection
 The only problem I had was that I forgot how for loops worked, and then forgot how ranges worked. I tried to use a variable called "count" that I could print and decrease in the loop, but I quickly realized that that was a stupid idea and decided to do better than that. The simple solution was just "google it", so I don't really have much to say for this part. I even had to use for loops over the summer and I still forgot.
-
+</details>
 &nbsp;
 ## LAUNCHPAD PART 2
 ### Section Description
@@ -111,7 +113,7 @@ The goal of the second step was to get a battery to power the pico, as well as a
 ### Wiring
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/c9af72a1-f693-4ef2-9eda-9ca59792c126)
 
-(shows one big breadboard, but I'm really using two half-size breadboards.)
+(shows one big breadboard, but I'm really using two half-size breadboards. just the pico and the accelerometer alone take up almost an entire small breadboard.)
 
 ### Reflection
 The LED part was as simple as it sounds, just "when this number is less than or equal to zero, turn the light on". The battery caused a lot of problems though, the first one being that it is **very hard** to disconnect the battery from the switch or the charger while trying not to break it. Maybe I'm just weak, but besides that, the bigger problem was that the code would work fine when connected to the computer, but when disconnected, the light would just turn on and stay on. It turned out that the ground rails on my two breadboards weren't actually connected, so once I put a jumper wire there, it worked fine. This was just an oversight on my part. The solution is to do better.
@@ -130,10 +132,11 @@ The goal of the third step was to get an OLED screen to display gyroscope values
 
 ### Wiring
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/8e6834d9-dec7-40b0-8687-b108b0b753ea)
+
 The OLED in fritzing doesn't have a reset pin, so I had to put it next to the other ones. Importing specific parts into fritzing is very tedious.
 
 ### Reflection
-The wiring was simple enough, but the main source of problems was the screen display code. It made absolutely no sense at the start, and I had no clue whether to put it in the while loop or outside of it. River essentially told me, "put this stuff outside of the loop and put these two lines in it" and then it just worked. Now, I sort of know what I'm doing with OLED screens.
+The wiring was simple enough, but the main source of problems was the screen display code. It made absolutely no sense at the start, and I had no clue whether to put it in the while loop or outside of it. Starting with a pile of lines of setup code and figuring out what order they're supposed to go in is like a puzzle. River essentially told me, "put this stuff outside of the loop and put these two lines in it" and then it just worked. Now, I sort of know what I'm doing with OLED screens. 
 
 &nbsp;
 
