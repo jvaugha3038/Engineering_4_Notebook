@@ -20,7 +20,7 @@ The first step was to use the Pico to print a 10 second countdown to the termina
 [COUNTDOWN CODE](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown.py)
 
 ### Reflection
-The only problem I had was that I forgot how for loops worked, and then forgot how ranges worked. The simple solution was just "google it", so I don't really have much to say for this part.
+The only problem I had was that I forgot how for loops worked, and then forgot how ranges worked. I tried to use a variable called "count" that I could print and decrease in the loop, but I quickly realized that that was a stupid idea and decided to do better than that. The simple solution was just "google it", so I don't really have much to say for this part. I even had to use for loops over the summer and I still forgot.
 
 &nbsp;
 ## LAUNCHPAD PART 2
@@ -36,12 +36,13 @@ shoutout to fritzing for being better than tinkercad could ever be
 
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/aee50b42-04c4-4c0e-88f9-4d5604a848b0)
 
+
 Also I will be using this image forever so I'm putting it here.
 ### Code
 [The Code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown2.py)
 
 ### Reflection
-This assignment was the mandatory "you forgot how LED wiring works and thus the assignment takes 3x longer" assignment this year. Once I remembered what I was doing (and which side of the LED is positive, its the long side) it ended up being very easy.
+This assignment was the mandatory "you forgot how LED wiring works and thus the assignment takes 3x longer" assignment this year. Once I remembered what I was doing (and which side of the LED is positive, its the long side) it ended up being very easy. 
 
 &nbsp;
 ## LAUNCHPAD PART 3
@@ -58,7 +59,7 @@ Adding onto the previous parts, the next step was to add a button to start the c
 [the code :)](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown3.py)
 
 ### Reflection
-This assignment served the same general purpose as the last one, being the "heres how to wire a button again" assignment. I used a panel mount button to save space. Overall, not that challenging.
+This assignment served the same general purpose as the last one, being the "heres how to wire a button again" assignment, with an added line of code to pull the button up or down. A metro M4 would have required extra wiring to do that, but the Pico can just do it in the code. I used a panel mount button to save space, and also because people keep ripping the pins off of the breadboard buttons somehow. Overall, not that challenging. 
 
 &nbsp;
 ## LAUNCHPAD PART 4
@@ -75,7 +76,7 @@ The final part of this assignment was to make a servo spin from 0 to 180 degrees
 [the whole everything](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/countdown4.py)
 
 ### Reflection
-Compared to the other ones, this one posed a slight challenge. This was mainly because I had to play The Servo Lottery since some of them just didn't work for a variety of reasons. Once I found a functioning servo, finished the code, and tested it, I was ready to record it. **However,** the servo had other plans, and then proceeded to not work ever again. In the code, I made the servo spin from 1 to 179 degrees to avoid having it get stuck at 180 again, then I got a new servo and it worked fine.
+Compared to the other ones, this one posed a slight challenge. This was mainly because I had to play The Servo Lottery since some of them just didn't work for a variety of reasons. Once I found a functioning servo, finished the code, and tested it, I was ready to record it. **However,** the servo had other plans, and then proceeded to not work ever again. In the code, I made the servo spin from 1 to 179 degrees to avoid having it get stuck at 180 again, then I got a new servo to replace the cooked one, and it worked fine.
 
 &nbsp;
 
@@ -111,8 +112,9 @@ The goal of the second step was to get a battery to power the pico, as well as a
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/c9af72a1-f693-4ef2-9eda-9ca59792c126)
 
 (shows one big breadboard, but I'm really using two half-size breadboards.)
+
 ### Reflection
-The LED part was as simple as it sounds, just "when this number is less than or equal to zero, turn the light on". The battery caused a lot of problems though, the first one being that it is **very hard** to disconnect the battery from the switch or the charger while trying not to break it. Maybe I'm just weak, but besides that, the bigger problem was that the code would work fine when connected to the computer, but when disconnected, the light would just turn on and stay on. It turned out that the ground rails on my two breadboards weren't actually connected, so once I put a jumper wire there, it worked fine. This was just an oversight on my part.
+The LED part was as simple as it sounds, just "when this number is less than or equal to zero, turn the light on". The battery caused a lot of problems though, the first one being that it is **very hard** to disconnect the battery from the switch or the charger while trying not to break it. Maybe I'm just weak, but besides that, the bigger problem was that the code would work fine when connected to the computer, but when disconnected, the light would just turn on and stay on. It turned out that the ground rails on my two breadboards weren't actually connected, so once I put a jumper wire there, it worked fine. This was just an oversight on my part. The solution is to do better.
 
 &nbsp;
 
@@ -128,7 +130,7 @@ The goal of the third step was to get an OLED screen to display gyroscope values
 
 ### Wiring
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/8e6834d9-dec7-40b0-8687-b108b0b753ea)
-The OLED in fritzing doesn't have a reset pin, so I had to put it next to the other ones.
+The OLED in fritzing doesn't have a reset pin, so I had to put it next to the other ones. Importing specific parts into fritzing is very tedious.
 
 ### Reflection
 The wiring was simple enough, but the main source of problems was the screen display code. It made absolutely no sense at the start, and I had no clue whether to put it in the while loop or outside of it. River essentially told me, "put this stuff outside of the loop and put these two lines in it" and then it just worked. Now, I sort of know what I'm doing with OLED screens.
