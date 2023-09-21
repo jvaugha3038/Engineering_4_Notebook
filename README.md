@@ -138,23 +138,7 @@ The OLED in fritzing doesn't have a reset pin, so I had to put it next to the ot
 ### Reflection
 The wiring was simple enough, but the main source of problems was the screen display code. It made absolutely no sense at the start, and I had no clue whether to put it in the while loop or outside of it. Starting with a pile of lines of setup code and figuring out what order they're supposed to go in is like a puzzle. River essentially told me, "put this stuff outside of the loop and put these two lines in it" and then it just worked. Now, I sort of know what I'm doing with OLED screens. 
 
-&nbsp;
-
-## TEMPLATE (plz copy)
-### Section Description
-what was the assignment
-
-### Evidence
-gif/video of the thing doing what its meant to do
-
-### Code
-[some funny link name](the link)
-
-### Wiring
-fritzing saves lives
-
-### Reflection
-what took forever, what was easy, was it miserable and why
+Side note, but I am so happy I finished all of this before we had to use whatever the hell WeVideo is. It seems way more inconvenient than ezgif ever was, even with it taking 3 minutes to upload a 10 second video.
 
 &nbsp;
 
