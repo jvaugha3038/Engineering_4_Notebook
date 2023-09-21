@@ -2,7 +2,7 @@
 from adafruit_display_text import label
 import adafruit_displayio_ssd1306
 import terminalio
-import displayio
+import displayio #its even more imports
 
 displayio.release_displays()
 
