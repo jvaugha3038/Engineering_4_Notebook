@@ -9,9 +9,6 @@
 
 &nbsp;
 ## LAUNCHPAD
-<details>
-<summary>I'm using dropdown menus. Hopefully these work.</summary>
-<br>
 
 ### Section Description
 The first step was to use the Pico to print a 10 second countdown to the terminal, ending with "Liftoff" at 0 seconds.
@@ -24,8 +21,6 @@ The first step was to use the Pico to print a 10 second countdown to the termina
 
 ### Reflection
 The only problem I had was that I forgot how for loops worked, and then forgot how ranges worked. I tried to use a variable called "count" that I could print and decrease in the loop, but I quickly realized that that was a stupid idea and decided to do better than that. The simple solution was just "google it", so I don't really have much to say for this part. I even had to use for loops over the summer and I still forgot.
-
-</details>
 
 &nbsp;
 
