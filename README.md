@@ -5,7 +5,7 @@
 ## Table of Contents
 * [LAUNCHPAD](#launchpad)
 * [ANTI CRASH](#crash_avoidance)
-* [BEAM DESIGN](#beam_design)
+* [FEA / BEAM DESIGN](#beam_design_part_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -143,8 +143,7 @@ Side note, but I am so happy I finished all of this before we had to use whateve
 
 &nbsp;
 
-## BEAM_DESIGN
-(FEA Part 1)
+## BEAM_DESIGN_PART_1
 ### Assignment Description
 The goal of this assignment is to design a 3D-printable beam that can support the most weight. The most notable constraints are:
 -Must use/be able to attach to the provided attachment block
