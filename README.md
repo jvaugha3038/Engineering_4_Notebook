@@ -172,7 +172,7 @@ I went with a triangular design mostly on a whim, but it wasn't completely silly
 I won't even talk about these, I'm sure you can see why they're bad. Also, they're both over 13 grams.
 
 ![Beam Starter + Holder (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/b490d4cb-8e37-48d3-82ae-ec2fa41ee2bb)
-![Beam Starter + Holder (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/e5c132b0-8665-4f74-be03-69dcdc1ecffb)
+![Beam Starter + Holder (3)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/3a9b5641-829a-48b9-a65a-bb7f5ef1d2f7)
 
 ### Reflection
 
