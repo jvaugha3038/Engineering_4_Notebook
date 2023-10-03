@@ -4,7 +4,8 @@
 
 ## Table of Contents
 * [LAUNCHPAD](#launchpad)
-* [ANTI-CRASH](#crash_avoidance)
+* [ANTI CRASH](#crash_avoidance)
+* [BEAM DESIGN](#beam_design)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -140,6 +141,42 @@ The wiring was simple enough, but the main source of problems was the screen dis
 
 Side note, but I am so happy I finished all of this before we had to use whatever the hell WeVideo is. It seems way more inconvenient than ezgif ever was, even with it taking 3 minutes to upload a 10 second video.
 
+&nbsp;
+
+## BEAM_DESIGN
+(FEA Part 1)
+### Assignment Description
+The goal of this assignment is to design a 3D-printable beam that can support the most weight. The most notable constraints are:
+-Must use/be able to attach to the provided attachment block
+-Must include preset dimensions
+-No overhangs
+-Must be PLA, and weigh less than 13 grams.
+
+I worked with River for this assignment, and we decided to make separate designs, then compare them and use the best one.
+### Part Link 
+
+[The Document](https://cvilleschools.onshape.com/documents/479a5d24056fdd56c88b8dd8/w/a70ad5efe5de980e63b28604/e/475bb8e7cc0dfcca94e90910?renderMode=0&uiState=651c473fcf4f7f00a8502653)
+
+### My Design
+![Beam Starter + Holder](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/30f978a8-55b0-448e-9ddc-f1ac7c17d05a)
+
+### My Reasoning
+I went with a triangular design mostly on a whim, but it wasn't completely silly. Triangles are strong, and I made it hollow to keep that strength while also making it as light as possible. I put tiny support beams inside of it because I figured that they *might* help, but I'm not completely sure what they'll do. Essentially, I made a big Toblerone and hoped for the best. The main issue is that the part where the weights will hang from looks like it'll just snap off.
+
+### River's Design
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2e1f1659-30b6-4f8c-bc48-f78be6a9ceba)
+
+### His Reasoning
+"I went with an inverted T-beam as the base shape because that design did well last year. I added lots of lightening holes down the T to stay underweight. While the loading at the end of the beam is ostensibly straight down, I knew a few beams failed in torsion last year so I added some struts to try and stiffen it in that axis. The struts are very light so they don't make much of an impact to the weight limit. One area where I know the beam could improve is in having more material near the mount point and less near the load to more efficiently handle the stress."
+### The Old, Bad Designs
+I won't even talk about these, I'm sure you can see why they're bad. Also, they're both over 13 grams.
+
+![Beam Starter + Holder (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/b490d4cb-8e37-48d3-82ae-ec2fa41ee2bb)
+![Beam Starter + Holder (2)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/e5c132b0-8665-4f74-be03-69dcdc1ecffb)
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 &nbsp;
 
 ## Onshape_Assignment_Template
