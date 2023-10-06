@@ -165,10 +165,8 @@ I went with a triangular design mostly on a whim, but it wasn't completely silly
 ### Post-FEA Analysis
 Stress
 ![Assembly 1](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/9844a0d9-dc95-43e5-80a0-d95c9a904100)
-
 Displacement
 ![Assembly 1 (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/c23b29e5-5d42-44cc-92c9-5c0091135b5d)
-
 The stress model shows that there are two main weak spots, being the vertex where the actual beam connects to the attachment block of the beam, and the very end where the weight will hang from, as I predicted. I intend to use River's startegy of adding little walls around that part of the beam to reinforce it. For the attachment block, I plan to add a fillet to that end of the beam to spread the stress out over a greater area.
 The displacement model shows exactly what you would expect; the end of the beam bends way too far. Reinforcing the triangle itself will limit its ability to bend.
 
