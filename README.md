@@ -156,17 +156,30 @@ I worked with River for this assignment, and we decided to make separate designs
 
 [The Document](https://cvilleschools.onshape.com/documents/479a5d24056fdd56c88b8dd8/w/a70ad5efe5de980e63b28604/e/475bb8e7cc0dfcca94e90910?renderMode=0&uiState=651c473fcf4f7f00a8502653)
 
-### My Design
+### My Base Design
 ![Beam Starter + Holder](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/30f978a8-55b0-448e-9ddc-f1ac7c17d05a)
 
 ### My Reasoning
 I went with a triangular design mostly on a whim, but it wasn't completely silly. Triangles are strong, and I made it hollow to keep that strength while also making it as light as possible. I put tiny support beams inside of it because I figured that they *might* help, but I'm not completely sure what they'll do. Essentially, I made a big Toblerone and hoped for the best. The main issue is that the part where the weights will hang from looks like it'll just snap off.
 
-### River's Design
+### Post-FEA Analysis
+Stress
+![Assembly 1](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/9844a0d9-dc95-43e5-80a0-d95c9a904100)
+
+Displacement
+![Assembly 1 (1)](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/c23b29e5-5d42-44cc-92c9-5c0091135b5d)
+
+The stress model shows that there are two main weak spots, being the vertex where the actual beam connects to the attachment block of the beam, and the very end where the weight will hang from, as I predicted. I intend to use River's startegy of adding little walls around that part of the beam to reinforce it. For the attachment block, I plan to add a fillet to that end of the beam to spread the stress out over a greater area.
+The displacement model shows exactly what you would expect; the end of the beam bends way too far. Reinforcing the triangle itself will limit its ability to bend.
+
+### River's Base Design
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2e1f1659-30b6-4f8c-bc48-f78be6a9ceba)
 
 ### His Reasoning
 "I went with an inverted T-beam as the base shape because that design did well last year. I added lots of lightening holes down the T to stay underweight. While the loading at the end of the beam is ostensibly straight down, I knew a few beams failed in torsion last year so I added some struts to try and stiffen it in that axis. The struts are very light so they don't make much of an impact to the weight limit. One area where I know the beam could improve is in having more material near the mount point and less near the load to more efficiently handle the stress."
+
+### Post-FEA Analysis
+
 ### The Old, Bad Designs
 I won't even talk about these, I'm sure you can see why they're bad. Also, they're both over 13 grams.
 
