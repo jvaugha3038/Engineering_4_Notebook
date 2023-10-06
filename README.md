@@ -170,6 +170,7 @@ Displacement
 The stress model shows that there are two main weak spots, being the vertex where the actual beam connects to the attachment block of the beam, and the very end where the weight will hang from, as I predicted. I intend to use River's startegy of adding little walls around that part of the beam to reinforce it. For the attachment block, I plan to add a fillet to that end of the beam to spread the stress out over a greater area.
 The displacement model shows exactly what you would expect; the end of the beam bends way too far. Reinforcing the triangle itself will limit its ability to bend.
 
+This is when it started to set in, just how long it takes for Onshape to render a simulation.
 ### River's Base Design
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2e1f1659-30b6-4f8c-bc48-f78be6a9ceba)
 
