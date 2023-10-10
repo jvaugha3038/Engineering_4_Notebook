@@ -171,6 +171,8 @@ The stress model shows that there are two main weak spots, being the vertex wher
 The displacement model shows exactly what you would expect; the end of the beam bends about 25cm too far, assuming it's even able to bend that far in the first place. Reinforcing the triangle itself will limit its ability to bend.
 
 This is when it started to set in, just how long it takes for Onshape to render a simulation.
+### Design Changes
+
 ### River's Base Design
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2e1f1659-30b6-4f8c-bc48-f78be6a9ceba)
 
