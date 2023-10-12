@@ -172,14 +172,13 @@ The displacement model shows exactly what you would expect; the end of the beam 
 
 This is when it started to set in, just how long it takes for Onshape to render a simulation.
 ### Design Changes
+I attempted to fillet the beam to the attachment block, as well as adding a wall around the part where weights will hang from. Despite my earlier predictions, neither of these made it stronger in any meaningful way, and also took a very long time to design (mainly because it takes 10 minutes to load one simulation, which will immediately unload itself if you change **anything**). Since this took forever to do only to fail, I had very little time to think of something better.
 
 ### River's Base Design
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2e1f1659-30b6-4f8c-bc48-f78be6a9ceba)
 
 ### His Reasoning
 "I went with an inverted T-beam as the base shape because that design did well last year. I added lots of lightening holes down the T to stay underweight. While the loading at the end of the beam is ostensibly straight down, I knew a few beams failed in torsion last year so I added some struts to try and stiffen it in that axis. The struts are very light so they don't make much of an impact to the weight limit. One area where I know the beam could improve is in having more material near the mount point and less near the load to more efficiently handle the stress."
-
-### Post-FEA Analysis
 
 ### The Old, Bad Designs
 I won't even talk about these, I'm sure you can see why they're bad. Also, they're both over 13 grams.
