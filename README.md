@@ -172,7 +172,7 @@ The displacement model shows exactly what you would expect; the end of the beam 
 
 This is when it started to set in, just how long it takes for Onshape to render a simulation.
 ### Design Changes
-I attempted to fillet the beam to the attachment block, as well as adding a wall around the part where weights will hang from. Despite my earlier predictions, neither of these made it stronger in any meaningful way, and also took a very long time to design (mainly because it takes 10 minutes to load one simulation, which will immediately unload itself if you change **anything**). Since this took forever to do only to fail, I had very little time to think of something better.
+I attempted to fillet the beam to the attachment block, as well as adding a wall around the part where weights will hang from. Despite my earlier predictions, neither of these made it stronger in any meaningful way (because I did it wrong), and also took a very long time to design (mainly because it takes 10 minutes to load one simulation, which will immediately unload itself if you change **anything**). Since this took forever to do only to fail, I had very little time to think of something better. I ended up settling on making the slant before the weight mount(???) a lot steeper. I ended up running out of time to check the percent improvement, but I do know it wasn't a very significant change.
 
 ### River's Base Design
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2e1f1659-30b6-4f8c-bc48-f78be6a9ceba)
