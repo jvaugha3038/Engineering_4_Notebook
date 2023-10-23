@@ -6,8 +6,8 @@
 * [LAUNCHPAD](#launchpad)
 * [ANTI CRASH](#crash_avoidance)
 * [FEA / BEAM DESIGN](#beam_design_part_1)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
 * [LANDING AREA](#landing_area)
+
 
 &nbsp;
 ## LAUNCHPAD
@@ -194,21 +194,16 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## LANDING_AREA
 ### Section Description
-This first assignment was just getting 3 sets of coordinates from the user and determining the area of the triangle 
+This first assignment was just getting 3 sets of coordinates from the user and determining the area of the triangle they formed.
 
 ### Evidence
 https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/90c5bcb5-795f-47be-9377-9c4ffe9221e4
 
 ### Code
-[code...?](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/crash3.py)
-
-### Wiring
-![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/8e6834d9-dec7-40b0-8687-b108b0b753ea)
-
-The OLED in fritzing doesn't have a reset pin, so I had to put it next to the other ones. Importing specific parts into fritzing is very tedious.
+[code...?](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/landing1.py)
 
 ### Reflection
-The wiring was simple enough, but the main source of problems was the screen display code. It made absolutely no sense at the start, and I had no clue whether to put it in the while loop or outside of it. Starting with a pile of lines of setup code and figuring out what order they're supposed to go in is like a puzzle. River essentially told me, "put this stuff outside of the loop and put these two lines in it" and then it just worked. Now, I sort of know what I'm doing with OLED screens. 
+The split function made me sad, at least until I understood how to use it (i forgot to delete a space and also forgot to **format it correctly**). Once I got past the initial sadness I had to do the math part with variables, during which the second wave of sadness hit. Turns out I had a fundamental misunderstanding of how f-strings actually work
 &nbsp;
 
 ## Onshape_Assignment_Template
