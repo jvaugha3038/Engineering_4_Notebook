@@ -31,4 +31,4 @@ while True: #the Loop
         continue
     else:
         print(f"The area of the triangle with vertices {set1}, {set2}, {set3} is {area} square km.") #the Output
-        sleep(2)
+        sleep(1)
