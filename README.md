@@ -194,16 +194,33 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## LANDING_AREA
 ### Section Description
-This first assignment was just getting 3 sets of coordinates from the user and determining the area of the triangle they formed.
+This first assignment was just getting 3 sets of coordinates from the user and determining the area of the triangle they formed. It also had to prompt the user to retype the coordiantes if they inputted invalid values.
 
 ### Evidence
 https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/90c5bcb5-795f-47be-9377-9c4ffe9221e4
 
 ### Code
-[code...?](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/landing1.py)
+[the code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/landing1.py)
 
 ### Reflection
-The split function made me sad, at least until I understood how to use it (i forgot to delete a space and also forgot to **format it correctly**). Once I got past the initial sadness I had to do the math part with variables, during which the second wave of sadness hit. Turns out I had a fundamental misunderstanding of how f-strings actually work
+The split function made me sad, at least until I understood how to use it (i forgot to delete a space and also forgot to **format it correctly**). Once I got past the initial sadness I had to do the math part with variables, during which the second wave of sadness hit. Turns out I had a fundamental misunderstanding of how f-strings actually work, so I spent multiple minutes fumbling around until I solved the problem that shouldn't have existed anyways. Solution: do better.
+&nbsp;
+
+## LANDING AREA PART 2
+### Section Description
+On top of last assignment, this one required us to graph the triangle on an OLED screen.
+
+### Evidence
+https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/84d9f5f1-5a0a-4c62-beeb-3ece45d6a942
+
+### Code
+[the code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/landing2.py)
+
+### Reflection
+Ah, OLEDs. I cannot truly explain how much of my soul was dragged away when I read the assignment title. I really, really hate using OLED screens. and now that I'm done with this assignment, I look forward to not thinking about them for at least one month. The amount of pain this caused me is incredible. Turns out the coordinates for the triangle function had to be **integers**, not **floats**, meaning the entire function took in strings, turned them into floats for the area calculation, and then turned them all into integers. I might simplify that later but for now I'm just happy to be done with this. 
+
+Also WeVideo. WeVideo is so bad. Do not use WeVideo unless you are being paid to.
+
 &nbsp;
 
 ## Onshape_Assignment_Template
