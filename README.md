@@ -208,7 +208,7 @@ The split function made me sad, at least until I understood how to use it (i for
 
 ## LANDING AREA PART 2
 ### Section Description
-On top of last assignment, this one required us to graph the triangle on an OLED screen.
+On top of last assignment, this one required us to graph the triangle on an OLED screen. Sure does **sound** easy.
 
 ### Evidence
 https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/84d9f5f1-5a0a-4c62-beeb-3ece45d6a942
@@ -217,7 +217,9 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/84d9f5f1-
 [the code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/landing2.py)
 
 ### Reflection
-Ah, OLEDs. I cannot truly explain how much of my soul was dragged away when I read the assignment title. I really, really hate using OLED screens. and now that I'm done with this assignment, I look forward to not thinking about them for at least one month. The amount of pain this caused me is incredible. Turns out the coordinates for the triangle function had to be **integers**, not **floats**, meaning the entire function took in strings, turned them into floats for the area calculation, and then turned them all into integers. I might simplify that later but for now I'm just happy to be done with this. 
+Ah, OLEDs. I cannot truly explain how much of my soul was dragged away when I read the assignment title. I really, really hate using OLED screens. and now that I'm done with this assignment, I look forward to not thinking about them for at least one month. The amount of pain this caused me is incredible. Turns out the coordinates for the triangle function had to be **integers**, not **floats**, meaning the entire function took in strings, turned them into floats for the area calculation, and then turned them all into integers. I might simplify that later but for now I'm just happy to be done with this. Also, I took way longer than I feel I should have to figure out how to center the coordinates around (64,32) instead of (0,0) on the OLED. And why does the positive y-axis go down???
+
+TLDR: Suffering. 
 
 Also WeVideo. WeVideo is so bad. Do not use WeVideo unless you are being paid to.
 
