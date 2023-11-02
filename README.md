@@ -7,6 +7,7 @@
 * [ANTI CRASH](#crash_avoidance)
 * [FEA / BEAM DESIGN](#beam_design_part_1)
 * [LANDING AREA](#landing_area)
+* [MORSE CODE](#morse_code)
 
 
 &nbsp;
@@ -222,7 +223,22 @@ Ah, OLEDs. I cannot truly explain how much of my soul was dragged away when I re
 TLDR: Suffering. 
 
 Also WeVideo. WeVideo is so bad. Do not use WeVideo unless you are being paid to.
+&nbsp;
 
+## MORSE_CODE
+### Section Description
+The first part of this assignment was to translate a user input into morse code, and print that in the terminal. It also had to quit if "-q" was typed.
+
+### Evidence
+https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/80e6e58d-4fa6-40a0-93b1-bfc29f128ee0
+
+### Code
+[moose code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/morse1.py)
+
+### Reflection
+This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code.
+
+(i wrote the documentation for this entire segment and then forgot to save it like a clown.)
 &nbsp;
 
 ## Onshape_Assignment_Template
