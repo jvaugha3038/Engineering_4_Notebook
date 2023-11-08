@@ -233,7 +233,7 @@ The first part of this assignment was to translate a user input into morse code,
 https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/80e6e58d-4fa6-40a0-93b1-bfc29f128ee0
 
 ### Code
-[moose code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/morse1.py)
+[moose code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/moose.py)
 
 ### Reflection
 This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code.
@@ -241,6 +241,20 @@ This part took me longer than I think it should have, because even though we got
 (i wrote the documentation for this entire segment and then forgot to save it like a clown.)
 &nbsp;
 
+## MORSE CODE 2
+### Section Description
+The second part of this assignment was to make an LED blink out the morse code. wahoo
+
+### Evidence
+https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2ffa001d-e697-4be1-b120-ebb1334c2e8a
+
+### Code
+[mouse code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/mouse.py)
+
+### Reflection
+This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. It's nice to have code work as intended for once.
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
