@@ -255,6 +255,21 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2ffa001d-
 This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. It's nice to have code work as intended for once.
 
 &nbsp;
+## DATA
+### Section Description
+This assignment involves gathering data off of the Pico, in this case being accelerometer data. Basically, its crash avodance part 2 but we have to save data and grab it off the Pico later.
+
+### Evidence
+
+https://docs.google.com/spreadsheets/d/1yZ88M6ugjBUoqh1THSC5ExokWt5CMAb1wk1IPwtQOnQ/edit#gid=0
+### Code
+[probably good code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/data1.py)
+
+### Reflection
+
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
