@@ -8,7 +8,7 @@
 * [FEA / BEAM DESIGN](#beam_design_part_1)
 * [LANDING AREA](#landing_area)
 * [MORSE CODE](#morse_code)
-
+* [DATA](#data)
 
 &nbsp;
 ## LAUNCHPAD
@@ -248,6 +248,7 @@ The second part of this assignment was to make an LED blink out the morse code. 
 ### Evidence
 https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2ffa001d-e697-4be1-b120-ebb1334c2e8a
 
+
 ### Code
 [mouse code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/mouse.py)
 
@@ -257,19 +258,36 @@ This part was supposed to be simple, and thankfully it actually was. All of the 
 &nbsp;
 ## DATA
 ### Section Description
-This assignment involves gathering data off of the Pico, in this case being accelerometer data. Basically, its crash avodance part 2 but we have to save data and grab it off the Pico later.
+This assignment involves gathering data off of the Pico, in this case being accelerometer data. Basically, its crash avodance part 2 but we have to save that data and grab it off the Pico later.
 
 ### Evidence
+https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/1ff60fe8-0b3e-4564-8028-f8bc225faeaa
 
 https://docs.google.com/spreadsheets/d/1yZ88M6ugjBUoqh1THSC5ExokWt5CMAb1wk1IPwtQOnQ/edit#gid=0
+(IMPORTANT: the data sheet lines up with my first run, not the one I recorded.)
+
 ### Code
 [probably good code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/data1.py)
 
-### Reflection
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a77150c5-aa87-4f2a-b096-931efdee37ed)
 
+### Reflection
+My brain was thouroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It was sad.
+Long story short, that was embarassing and I don't want to talk about it.
 
 &nbsp;
+## DATA 2
+### Section Description
+This assignment involves turning the data from part 1 and making charts that made the data usable/readable.
 
+### Evidence
+![X, Y, and Z Acceleration of the Pico](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a7e55318-efe5-4a8c-a64b-088aafea311d)
+![Tilt Alarm](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/0009321d-2d2e-4c14-9dc4-0790dcce6e4a)
+
+### Reflection
+There truly isn't much to talk about with this assignment. I've made charts and stuff with google sheets before, so it took about 5-10 minutes. Also, the radar chart is very silly looking and I tried my best to make it work and look good, but I failed.
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
