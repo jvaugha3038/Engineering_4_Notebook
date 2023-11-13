@@ -248,9 +248,11 @@ The second part of this assignment was to make an LED blink out the morse code. 
 ### Evidence
 https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2ffa001d-e697-4be1-b120-ebb1334c2e8a
 
-
 ### Code
 [mouse code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/mouse.py)
+
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/6a0e976f-3316-422c-8088-9ad59f2e9d6c)
 
 ### Reflection
 This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. It's nice to have code work as intended for once.
@@ -287,7 +289,9 @@ This assignment involves turning the data from part 1 and making charts that mad
 
 ### Reflection
 There truly isn't much to talk about with this assignment. I've made charts and stuff with google sheets before, so it took about 5-10 minutes. Also, the radar chart is very silly looking and I tried my best to make it work and look good, but I failed.
+
 &nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
