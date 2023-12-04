@@ -255,7 +255,7 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2ffa001d-
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/6a0e976f-3316-422c-8088-9ad59f2e9d6c)
 
 ### Reflection
-This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. It's nice to have code work as intended for once.
+This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. A pretty simple set of elif statements was all I had to add to my code, which is a refreshing change of pace from, lets say, landing area part 2. It's nice to have code work as intended for once. 
 
 &nbsp;
 ## DATA
