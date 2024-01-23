@@ -14,7 +14,7 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '7':'--...', '8':'---..', '9':'----.',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
-    '(':'-.--.', ')':'-.--.-'}
+    '(':'-.--.', ')':'-.--.-'} #massive dictionary
 
 
 def morse(prompt): #the Function
@@ -25,10 +25,10 @@ def morse(prompt): #the Function
         m=("")
         prompt=upper(prompt)
         for letter in prompt:
-            if letter == (" ")
+            if letter == (" ") #accounting for spaces
                 m.append(" /")
             else:
-                m.append((MORSE_CODE[letter])+" ") 
+                m.append((MORSE_CODE[letter])+" ") #uses the dictionary otherwise
         return m
 
 while True: #the Loop
