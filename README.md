@@ -288,6 +288,8 @@ This assignment involves turning the data from part 1 and making charts that mad
 ### Evidence
 ![the raw data](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/fbc375cc-c34b-47d9-ab81-2263f85f5989)
 
+See all this raw data? This is only 33 out of 134 garbage and unreadable lines of data. If only there was a way to make this a little less garbage and unreadable!
+
 ![X, Y, and Z Acceleration of the Pico](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a7e55318-efe5-4a8c-a64b-088aafea311d)
 ![Tilt Alarm](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/0009321d-2d2e-4c14-9dc4-0790dcce6e4a)
 
