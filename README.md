@@ -236,7 +236,7 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/80e6e58d-
 [moose code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/moose.py)
 
 ### Reflection
-This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code. Whether that saved time or not is somthing I don't know.
+This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code. Whether that saved time or not is something I don't know.
 
 (i wrote the documentation for this entire segment and then forgot to save it like a clown.)
 &nbsp;
@@ -277,6 +277,7 @@ https://docs.google.com/spreadsheets/d/1yZ88M6ugjBUoqh1THSC5ExokWt5CMAb1wk1IPwtQ
 ### Reflection
 My brain was thouroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It was sad.
 Long story short, that was embarassing and I don't want to talk about it.
+
 Read your code, kids. It will save you hours.
 
 &nbsp;
