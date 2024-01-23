@@ -236,7 +236,7 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/80e6e58d-
 [moose code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/moose.py)
 
 ### Reflection
-This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code. Whether that saved time or not is something I don't know.
+This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Then I got rid of that, and just had it check for spaces manually with an if statement. Both ways worked well. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code. Whether that saved time or not is something I don't know.
 
 (i wrote the documentation for this entire segment and then forgot to save it like a clown.)
 &nbsp;
@@ -275,10 +275,10 @@ https://docs.google.com/spreadsheets/d/1yZ88M6ugjBUoqh1THSC5ExokWt5CMAb1wk1IPwtQ
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a77150c5-aa87-4f2a-b096-931efdee37ed)
 
 ### Reflection
-My brain was thouroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It was sad.
+My brain was thouroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It worked perfectly after that. It was sad, and I was sad.
 Long story short, that was embarassing and I don't want to talk about it.
 
-Read your code, kids. It will save you hours.
+Read your code, kids. It'll save you hours.
 
 &nbsp;
 ## DATA 2
@@ -286,11 +286,13 @@ Read your code, kids. It will save you hours.
 This assignment involves turning the data from part 1 and making charts that made the data usable/readable.
 
 ### Evidence
+![the raw data](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/fbc375cc-c34b-47d9-ab81-2263f85f5989)
+
 ![X, Y, and Z Acceleration of the Pico](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a7e55318-efe5-4a8c-a64b-088aafea311d)
 ![Tilt Alarm](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/0009321d-2d2e-4c14-9dc4-0790dcce6e4a)
 
 ### Reflection
-There truly isn't much to talk about with this assignment. I've made charts and stuff with google sheets before, so it took about 5-10 minutes. Also, the radar chart is very silly looking and I tried my best to make it work and look good, but I failed.
+There truly isn't much to talk about with this assignment. I've made charts and stuff with google sheets before, so it took about 5-10 minutes. Are these charts actually useful? Maybe not. But there are two charts and they do present the data. Also, the radar chart is very silly looking and I tried my best to make it work and look good, but I failed. I will find an excuse to use it.
 
 &nbsp;
 
