@@ -275,7 +275,7 @@ https://docs.google.com/spreadsheets/d/1yZ88M6ugjBUoqh1THSC5ExokWt5CMAb1wk1IPwtQ
 ![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a77150c5-aa87-4f2a-b096-931efdee37ed)
 
 ### Reflection
-My brain was thouroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It worked perfectly after that. It was sad, and I was sad.
+My brain was thoroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It worked perfectly after that. It was sad, and I was sad.
 Long story short, that was embarassing and I don't want to talk about it.
 
 Read your code, kids. It'll save you hours.
