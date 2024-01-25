@@ -4,14 +4,13 @@ import adafruit_mpu6050
 import busio
 import time
 import board
-from digitalio import DigitalInOut, Direction, Pull #the stuff again
+from digitalio import DigitalInOut, Direction #the stuff again
 
 led = DigitalInOut(board.LED)
 led.direction = Direction.OUTPUT
 red = DigitalInOut(board.GP16)
 red.direction = Direction.OUTPUT
 
-switch = DigitalInOut(board.GP17)
 sda_pin = board.GP14
 scl_pin = board.GP15
 i2c = busio.I2C(scl_pin, sda_pin)
