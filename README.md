@@ -8,7 +8,7 @@
 * [FEA / BEAM DESIGN](#beam_design_part_1)
 * [LANDING AREA](#landing_area)
 * [MORSE CODE](#morse_code)
-
+* [DATA](#data)
 
 &nbsp;
 ## LAUNCHPAD
@@ -236,7 +236,7 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/80e6e58d-
 [moose code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/moose.py)
 
 ### Reflection
-This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code.
+This part took me longer than I think it should have, because even though we got all of the morse code translations themselves from a dictionary, we still had to format any spaces in the prompt. I spent way too long trying things that didn't work, and then I just added a new key:value pair to the dictionary for spaces and it worked. Then I got rid of that, and just had it check for spaces manually with an if statement. Both ways worked well. Also, I used a function for the translation specifically because I wanted to copy over the code from landing pad 1 and just change it, instead of rewriting similar code. Whether that saved time or not is something I don't know.
 
 (i wrote the documentation for this entire segment and then forgot to save it like a clown.)
 &nbsp;
@@ -251,10 +251,53 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/2ffa001d-
 ### Code
 [mouse code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/mouse.py)
 
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/6a0e976f-3316-422c-8088-9ad59f2e9d6c)
+
 ### Reflection
-This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. It's nice to have code work as intended for once.
+This part was supposed to be simple, and thankfully it actually was. All of the necessary code was essentially given to us, and wiring an LED is the simplest bit of wiring we have done. A pretty simple set of elif statements was all I had to add to my code, which is a refreshing change of pace from, lets say, landing area part 2. It's nice to have code work as intended for once. 
 
 &nbsp;
+## DATA
+### Section Description
+This assignment involves gathering data off of the Pico, in this case being accelerometer data. Basically, its crash avodance part 2 but we have to save that data and grab it off the Pico later.
+
+### Evidence
+https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/1ff60fe8-0b3e-4564-8028-f8bc225faeaa
+
+https://docs.google.com/spreadsheets/d/1yZ88M6ugjBUoqh1THSC5ExokWt5CMAb1wk1IPwtQOnQ/edit#gid=0
+(IMPORTANT: the data sheet lines up with my first run, not the one I recorded.)
+
+### Code
+[probably good code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/data1.py)
+
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a77150c5-aa87-4f2a-b096-931efdee37ed)
+
+### Reflection
+My brain was thoroughly jumbled while trying to work through this one. It started off fine, with me grabbing all of the needed code from the assignment, throwing it into the crash avoidance code, and making boot.py (i made a complete fool of myself here and i dont want to talk about it). For some reason it didnt want to actually work, which I couldn't figure out for a very long time, until I actually read my code. I forgot to replace a bit of placeholder text with the pin I was actually using. It worked perfectly after that. It was sad, and I was sad.
+Long story short, that was embarassing and I don't want to talk about it.
+
+Read your code, kids. It'll save you hours.
+
+&nbsp;
+## DATA 2
+### Section Description
+This assignment involves turning the data from part 1 and making charts that made the data usable/readable.
+
+### Evidence
+![the raw data](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/fbc375cc-c34b-47d9-ab81-2263f85f5989)
+
+See all this raw data? This is only 33 out of 134 garbage and unreadable lines of data. If only there was a way to make this a little less garbage and unreadable!
+
+![X, Y, and Z Acceleration of the Pico](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/a7e55318-efe5-4a8c-a64b-088aafea311d)
+![Tilt Alarm](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/0009321d-2d2e-4c14-9dc4-0790dcce6e4a)
+
+### Reflection
+There truly isn't much to talk about with this assignment. I've made charts and stuff with google sheets before, so it took about 5-10 minutes. Are these charts actually useful? Maybe not. But there are two charts and they do present the data. Also, the radar chart is very silly looking and I tried my best to make it work and look good, but I failed. I will find an excuse to use it.
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
@@ -276,7 +319,6 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 &nbsp;
 
 ## Media Test
-
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
