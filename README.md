@@ -217,6 +217,10 @@ https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/84d9f5f1-
 ### Code
 [the code](https://github.com/jvaugha3038/Engineering_4_Notebook/blob/main/raspberry-pi/landing2.py)
 
+### Wiring
+![image](https://github.com/jvaugha3038/Engineering_4_Notebook/assets/112961338/f09021dc-e22d-4c6c-9e29-37ea7af4f023)
+
+
 ### Reflection
 Ah, OLEDs. I cannot truly explain how much of my soul was dragged away when I read the assignment title. I really, really hate using OLED screens. and now that I'm done with this assignment, I look forward to not thinking about them for at least one month. The amount of pain this caused me is incredible. Turns out the coordinates for the triangle function had to be **integers**, not **floats**, meaning the entire function took in strings, turned them into floats for the area calculation, and then turned them all into integers. I might simplify that later but for now I'm just happy to be done with this. Also, I took way longer than I feel I should have to figure out how to center the coordinates around (64,32) instead of (0,0) on the OLED. And why does the positive y-axis go down???
 
